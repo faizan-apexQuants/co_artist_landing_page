@@ -52,7 +52,7 @@ export function Artists() {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.05 }}
                         >
-                            <Card className="group overflow-hidden bg-card/50 backdrop-blur border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
+                            <Card className="group overflow-hidden bg-card/50 border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
                                 {/* Image */}
                                 <div className="relative h-64 overflow-hidden">
                                     <img

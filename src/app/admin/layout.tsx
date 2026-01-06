@@ -95,14 +95,14 @@ export default function AdminLayout({
     return (
         <div className="min-h-screen flex bg-background">
             {/* Desktop Sidebar */}
-            <aside className="hidden lg:flex w-64 border-r border-border bg-card/50 backdrop-blur flex-col">
+            <aside className="hidden lg:flex w-64 border-r border-border bg-card/50 flex-col">
                 <Sidebar />
             </aside>
 
             {/* Main Content */}
             <div className="flex-1 flex flex-col">
                 {/* Header */}
-                <header className="h-16 border-b border-border bg-card/50 backdrop-blur flex items-center justify-between px-6">
+                <header className="h-16 border-b border-border bg-card/50 flex items-center justify-between px-6">
                     <div className="flex items-center gap-4">
                         {/* Mobile Menu */}
                         <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>

@@ -73,7 +73,7 @@ export function Gallery() {
 
             {/* Lightbox */}
             <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
-                <DialogContent className="max-w-4xl p-0 bg-background/95 backdrop-blur-xl border-border/50">
+                <DialogContent className="max-w-4xl p-0 bg-background/95 border-border/50">
                     <DialogTitle className="sr-only">
                         {selectedImage?.title || "Gallery Image"}
                     </DialogTitle>

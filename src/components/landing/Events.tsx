@@ -63,8 +63,8 @@ export function Events() {
                             variant={activeCategory === cat.id ? "default" : "outline"}
                             onClick={() => setActiveCategory(cat.id)}
                             className={`rounded-full ${activeCategory === cat.id
-                                    ? "bg-gradient-to-r from-purple-500 to-pink-500 glow-purple"
-                                    : ""
+                                ? "bg-gradient-to-r from-purple-500 to-pink-500 glow-purple"
+                                : ""
                                 }`}
                         >
                             <span className="mr-2">{cat.icon}</span>
@@ -83,7 +83,7 @@ export function Events() {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                         >
-                            <Card className="group overflow-hidden bg-card/50 backdrop-blur border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
+                            <Card className="group overflow-hidden bg-card/50 border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
                                 {/* Image */}
                                 <div className="relative h-48 overflow-hidden">
                                     <img

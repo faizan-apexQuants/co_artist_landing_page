@@ -62,7 +62,7 @@ export function Stats() {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                         >
-                            <Card className="text-center p-6 bg-card/50 backdrop-blur border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
+                            <Card className="text-center p-6 bg-card/50 border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
                                 <span className="text-4xl mb-3 block drop-shadow-lg">{stat.icon}</span>
                                 <div className="font-display text-3xl md:text-4xl font-bold gradient-text mb-1">
                                     <CountUp

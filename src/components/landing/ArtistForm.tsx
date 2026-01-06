@@ -142,7 +142,7 @@ export function ArtistForm() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                     >
-                        <Card className="bg-card/50 backdrop-blur border-border/50">
+                        <Card className="bg-card/50 border-border/50">
                             <CardContent className="p-6 md:p-8">
                                 <div className="flex items-center gap-2 mb-6">
                                     <Sparkles className="w-5 h-5 text-purple-400" />

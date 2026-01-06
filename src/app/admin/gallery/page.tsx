@@ -80,7 +80,7 @@ export default function GalleryPage() {
                 </Button>
             </div>
 
-            <Card className="bg-card/50 backdrop-blur border-border/50">
+            <Card className="bg-card/50 border-border/50">
                 <CardContent className="pt-6">
                     <div className="relative">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
@@ -102,7 +102,7 @@ export default function GalleryPage() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: index * 0.05 }}
                     >
-                        <Card className="overflow-hidden bg-card/50 backdrop-blur border-border/50 group">
+                        <Card className="overflow-hidden bg-card/50 border-border/50 group">
                             <div className="relative aspect-square">
                                 <img
                                     src={item.image}
@@ -129,7 +129,7 @@ export default function GalleryPage() {
             </div>
 
             {filteredGallery.length === 0 && (
-                <Card className="bg-card/50 backdrop-blur border-border/50">
+                <Card className="bg-card/50 border-border/50">
                     <CardContent className="py-12 text-center">
                         <ImageIcon className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
                         <h3 className="font-medium text-lg mb-2">No images yet</h3>

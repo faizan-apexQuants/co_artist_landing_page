@@ -77,7 +77,7 @@ export function Navbar() {
                                 <Menu className="h-5 w-5" />
                             </Button>
                         </SheetTrigger>
-                        <SheetContent side="right" className="bg-background/95 backdrop-blur-xl">
+                        <SheetContent side="right" className="bg-background/95 -xl">
                             <div className="flex flex-col gap-6 mt-10">
                                 {navLinks.map((link) => (
                                     <Link

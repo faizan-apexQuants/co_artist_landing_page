@@ -44,7 +44,7 @@ export function EventHeads() {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                         >
-                            <Card className="group text-center p-6 bg-card/50 backdrop-blur border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
+                            <Card className="group text-center p-6 bg-card/50 border-border/50 hover:border-purple-500/50 transition-all duration-300 hover:glow-purple">
                                 {/* Avatar */}
                                 <div className="relative mb-4 mx-auto w-fit">
                                     <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-cyan-500 blur-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300" />

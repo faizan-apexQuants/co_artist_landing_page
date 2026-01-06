@@ -122,7 +122,7 @@ export default function ArtistsPage() {
                 </Button>
             </div>
 
-            <Card className="bg-card/50 backdrop-blur border-border/50">
+            <Card className="bg-card/50 border-border/50">
                 <CardContent className="pt-6">
                     <div className="relative">
                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
@@ -136,7 +136,7 @@ export default function ArtistsPage() {
                 </CardContent>
             </Card>
 
-            <Card className="bg-card/50 backdrop-blur border-border/50">
+            <Card className="bg-card/50 border-border/50">
                 <CardContent className="p-0">
                     <Table>
                         <TableHeader>

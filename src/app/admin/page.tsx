@@ -87,7 +87,7 @@ export default function AdminDashboard() {
                         transition={{ delay: index * 0.1 }}
                     >
                         <Link href={stat.href}>
-                            <Card className="bg-card/50 backdrop-blur border-border/50 hover:border-purple-500/50 transition-all duration-300 cursor-pointer group">
+                            <Card className="bg-card/50 border-border/50 hover:border-purple-500/50 transition-all duration-300 cursor-pointer group">
                                 <CardHeader className="flex flex-row items-center justify-between pb-2">
                                     <CardTitle className="text-sm font-medium text-muted-foreground">
                                         {stat.title}
@@ -118,7 +118,7 @@ export default function AdminDashboard() {
             {/* Recent Activity */}
             <div className="grid lg:grid-cols-2 gap-6">
                 {/* Recent Events */}
-                <Card className="bg-card/50 backdrop-blur border-border/50">
+                <Card className="bg-card/50 border-border/50">
                     <CardHeader className="flex flex-row items-center justify-between">
                         <CardTitle className="text-lg">Recent Events</CardTitle>
                         <Link href="/admin/events">
@@ -148,7 +148,7 @@ export default function AdminDashboard() {
                 </Card>
 
                 {/* Featured Artists */}
-                <Card className="bg-card/50 backdrop-blur border-border/50">
+                <Card className="bg-card/50 border-border/50">
                     <CardHeader className="flex flex-row items-center justify-between">
                         <CardTitle className="text-lg">Featured Artists</CardTitle>
                         <Link href="/admin/artists">

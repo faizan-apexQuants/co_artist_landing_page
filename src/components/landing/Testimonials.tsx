@@ -57,7 +57,7 @@ export function Testimonials() {
                                         transition={{ duration: 0.5 }}
                                         className="absolute inset-0"
                                     >
-                                        <Card className="p-8 md:p-10 text-center bg-card/50 backdrop-blur border-border/50">
+                                        <Card className="p-8 md:p-10 text-center bg-card/50 border-border/50">
                                             {/* Quote Icon */}
                                             <div className="mb-6">
                                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" className="mx-auto opacity-30">
