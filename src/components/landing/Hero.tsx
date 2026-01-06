@@ -84,6 +84,19 @@ export function Hero() {
                 ))}
             </div>
 
+            {/* Hero Banner Image */}
+            <div className="absolute inset-0 z-5">
+                <div
+                    className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-300"
+                    style={{
+                        backgroundImage: "url('/hero-banner.png')",
+                        maskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 60%, transparent 100%)'
+                    }}
+                />
+                {/* Overlay for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-b from-background via-background/70 to-background" />
+            </div>
+
             {/* Content */}
             <div className="container mx-auto px-6 relative z-20 text-center max-w-4xl">
                 <motion.div
