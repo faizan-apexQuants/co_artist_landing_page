@@ -1,0 +1,388 @@
+{
+    "events": [
+        {
+            "id": "1",
+            "title": "Neon Nights Live",
+            "category": "music",
+            "date": "2026-01-15",
+            "time": "20:00",
+            "venue": "Main Stage Hall",
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800",
+            "artists": [
+                "DJ Aurora",
+                "The Synths",
+                "Echo Chamber"
+            ],
+            "description": "An electrifying night of electronic music featuring the best DJs in the scene.",
+            "featured": true,
+            "status": "upcoming"
+        },
+        {
+            "id": "2",
+            "title": "Urban Flow Dance Battle",
+            "category": "dance",
+            "date": "2026-01-18",
+            "time": "18:00",
+            "venue": "Movement Studio",
+            "image": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800",
+            "artists": [
+                "Street Beats Crew",
+                "Flex Nation"
+            ],
+            "description": "Watch the best street dancers compete in this epic battle.",
+            "featured": false,
+            "status": "upcoming"
+        },
+        {
+            "id": "3",
+            "title": "Canvas of Dreams",
+            "category": "visual",
+            "date": "2026-01-20",
+            "time": "17:00",
+            "venue": "Gallery Space",
+            "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800",
+            "artists": [
+                "Maria Chen",
+                "Abstract Collective"
+            ],
+            "description": "A stunning exhibition featuring contemporary artists.",
+            "featured": true,
+            "status": "upcoming"
+        },
+        {
+            "id": "4",
+            "title": "Shadows & Light",
+            "category": "theatre",
+            "date": "2026-01-22",
+            "time": "19:30",
+            "venue": "Black Box Theatre",
+            "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=800",
+            "artists": [
+                "Dramatis Personae"
+            ],
+            "description": "An immersive theatre experience exploring light and darkness.",
+            "featured": false,
+            "status": "upcoming"
+        },
+        {
+            "id": "5",
+            "title": "Indie Film Showcase",
+            "category": "film",
+            "date": "2026-01-25",
+            "time": "16:00",
+            "venue": "Screening Room",
+            "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800",
+            "artists": [
+                "New Wave Directors"
+            ],
+            "description": "Discover the next generation of independent filmmakers.",
+            "featured": false,
+            "status": "upcoming"
+        },
+        {
+            "id": "6",
+            "title": "Rhythm & Soul Festival",
+            "category": "music",
+            "date": "2026-01-28",
+            "time": "15:00",
+            "venue": "Open Air Arena",
+            "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800",
+            "artists": [
+                "Soul Sisters",
+                "Jazz Fusion Band",
+                "The Harmonics"
+            ],
+            "description": "A full-day festival celebrating soul, jazz, and rhythm.",
+            "featured": true,
+            "status": "upcoming"
+        }
+    ],
+    "artists": [
+        {
+            "id": "1",
+            "name": "Luna Eclipse",
+            "genre": "Electronic Producer",
+            "type": "musician",
+            "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+            "bio": "Grammy-nominated electronic music producer with over 5 million streams worldwide.",
+            "featured": true,
+            "achievements": [
+                "Grammy Nominated",
+                "5M+ Streams"
+            ],
+            "social": {
+                "instagram": "#",
+                "twitter": "#",
+                "spotify": "#"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Kai Movements",
+            "genre": "Contemporary Dancer",
+            "type": "dancer",
+            "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400",
+            "bio": "World Dance Champion and viral choreographer with millions of views.",
+            "featured": true,
+            "achievements": [
+                "World Dance Champion",
+                "Viral Choreographer"
+            ],
+            "social": {
+                "instagram": "#",
+                "youtube": "#"
+            }
+        },
+        {
+            "id": "3",
+            "name": "Aria Stone",
+            "genre": "Abstract Painter",
+            "type": "visual",
+            "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+            "bio": "Award-winning abstract painter with exhibitions worldwide.",
+            "featured": false,
+            "achievements": [
+                "International Exhibitions"
+            ],
+            "social": {
+                "instagram": "#",
+                "website": "#"
+            }
+        },
+        {
+            "id": "4",
+            "name": "Xavier Cross",
+            "genre": "Performance Artist",
+            "type": "performer",
+            "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+            "bio": "Edinburgh Fringe Award winner known for immersive performances.",
+            "featured": false,
+            "achievements": [
+                "Edinburgh Fringe Award"
+            ],
+            "social": {
+                "instagram": "#",
+                "twitter": "#"
+            }
+        },
+        {
+            "id": "5",
+            "name": "Mira Sage",
+            "genre": "Singer-Songwriter",
+            "type": "musician",
+            "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400",
+            "bio": "Platinum-selling artist known for soulful vocals and sold-out tours.",
+            "featured": true,
+            "achievements": [
+                "Platinum Album",
+                "Sold Out Tours"
+            ],
+            "social": {
+                "instagram": "#",
+                "spotify": "#",
+                "twitter": "#"
+            }
+        },
+        {
+            "id": "6",
+            "name": "Dante Flow",
+            "genre": "Street Dance Crew Lead",
+            "type": "dancer",
+            "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+            "bio": "Battle champion leading one of the most respected street dance crews.",
+            "featured": false,
+            "achievements": [
+                "Battle Champion 2024"
+            ],
+            "social": {
+                "instagram": "#",
+                "youtube": "#"
+            }
+        },
+        {
+            "id": "7",
+            "name": "Elara Vance",
+            "genre": "Multimedia Artist",
+            "type": "visual",
+            "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400",
+            "bio": "Creates immersive installations combining technology and art.",
+            "featured": false,
+            "achievements": [
+                "Museum Installations"
+            ],
+            "social": {
+                "instagram": "#",
+                "website": "#"
+            }
+        },
+        {
+            "id": "8",
+            "name": "Neo Williams",
+            "genre": "Indie Filmmaker",
+            "type": "filmmaker",
+            "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+            "bio": "Sundance-selected director known for thought-provoking narratives.",
+            "featured": true,
+            "achievements": [
+                "Sundance Selection",
+                "Short Film Award"
+            ],
+            "social": {
+                "instagram": "#",
+                "vimeo": "#"
+            }
+        }
+    ],
+    "eventHeads": [
+        {
+            "id": "1",
+            "name": "Alexandra Rivera",
+            "role": "Creative Director",
+            "specialty": "Music & Live Performances",
+            "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+            "bio": "Curator of sonic experiences with 10+ years in music production and event curation.",
+            "social": {
+                "instagram": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Marcus Chen",
+            "role": "Dance Coordinator",
+            "specialty": "Contemporary & Street Dance",
+            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+            "bio": "Former professional dancer turned event curator with international experience.",
+            "social": {
+                "instagram": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "id": "3",
+            "name": "Priya Sharma",
+            "role": "Visual Arts Lead",
+            "specialty": "Exhibitions & Installations",
+            "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+            "bio": "Award-winning curator with gallery experience across five continents.",
+            "social": {
+                "instagram": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "id": "4",
+            "name": "James Okonkwo",
+            "role": "Theatre Director",
+            "specialty": "Drama & Performance Art",
+            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+            "bio": "Bringing stories to life through immersive and experimental theatre.",
+            "social": {
+                "instagram": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        }
+    ],
+    "gallery": [
+        {
+            "id": "1",
+            "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800",
+            "title": "Neon Dreams Festival",
+            "category": "Music",
+            "type": "image"
+        },
+        {
+            "id": "2",
+            "image": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800",
+            "title": "Street Dance Battle",
+            "category": "Dance",
+            "type": "image"
+        },
+        {
+            "id": "3",
+            "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800",
+            "title": "Canvas Exhibition",
+            "category": "Visual Arts",
+            "type": "image"
+        },
+        {
+            "id": "4",
+            "image": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=800",
+            "title": "Live Concert Night",
+            "category": "Music",
+            "type": "image"
+        },
+        {
+            "id": "5",
+            "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800",
+            "title": "EDM Night",
+            "category": "Music",
+            "type": "image"
+        },
+        {
+            "id": "6",
+            "image": "https://images.unsplash.com/photo-1547153760-18fc86324498?w=800",
+            "title": "Theatre Performance",
+            "category": "Theatre",
+            "type": "image"
+        },
+        {
+            "id": "7",
+            "image": "https://images.unsplash.com/photo-1504680177321-2e6a879aac86?w=800",
+            "title": "Art Installation",
+            "category": "Visual Arts",
+            "type": "image"
+        },
+        {
+            "id": "8",
+            "image": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800",
+            "title": "Dance Workshop",
+            "category": "Dance",
+            "type": "image"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "1",
+            "quote": "Co-Artist Studio transformed my career. The exposure I got from performing at their Neon Nights event led to my first record deal!",
+            "author": "Luna Eclipse",
+            "role": "Electronic Producer",
+            "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+            "rating": 5
+        },
+        {
+            "id": "2",
+            "quote": "The community here is unlike anything I've experienced. Artists from different disciplines collaborate and create magic together.",
+            "author": "Marcus Chen",
+            "role": "Contemporary Dancer",
+            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+            "rating": 5
+        },
+        {
+            "id": "3",
+            "quote": "My art exhibition at Co-Artist reached audiences I never could have accessed alone. The team's support is phenomenal.",
+            "author": "Aria Stone",
+            "role": "Visual Artist",
+            "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+            "rating": 5
+        },
+        {
+            "id": "4",
+            "quote": "From street performer to headlining shows - Co-Artist believed in my vision when no one else did. Forever grateful!",
+            "author": "Xavier Cross",
+            "role": "Performance Artist",
+            "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+            "rating": 5
+        }
+    ],
+    "stats": {
+        "eventsHosted": 50,
+        "artistsFeatured": 200,
+        "attendees": 10000,
+        "artForms": 15
+    }
+}
